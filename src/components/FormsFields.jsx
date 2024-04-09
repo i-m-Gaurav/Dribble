@@ -35,20 +35,7 @@ const FormFields = () => {
             required
           />
         </div>
-        {/* <div className="mb-4">
-          <label htmlFor="username" className="block font-bold mb-2">
-            <span className="text-red-500"></span> Username
-          </label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            value={formData.username}
-            onChange={handleInputChange}
-            className="w-full px-3 py-2 bg-gray-200  rounded-md focus:outline-none focus:ring-2"
-            required
-          />
-        </div> */}
+        
       </div>
       <div className="mb-8">
         <label htmlFor="email" className="block font-bold mb-2">

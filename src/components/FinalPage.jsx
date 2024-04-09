@@ -160,7 +160,7 @@ const FinalPage = () => {
           <div className="flex justify-center items-center ">
             <span className="font-bold text-sm mr-2">52,255,658</span>{" "}
             <p className="text-gray-400 text-sm"> shots Dribbled</p>{" "}
-            <img src="./lo.png" className="h-5 ml-2" />
+            <img src="./lo.png" alt="demo" className="h-5 ml-2" />
           </div>
         </div>
       </footer>
