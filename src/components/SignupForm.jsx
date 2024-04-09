@@ -36,7 +36,7 @@ const SignupForm = () => {
           <div className="absolute top-10 left-10">
             <img
               src="brownlogo.png"
-              atl="logo"
+              alt="logo"
               className="h-10 filter border-yellow-700"
             />
             <h1 className="font-bold text-2xl ml-3 mt-5 text-[#8b671b]">
@@ -70,13 +70,13 @@ const SignupForm = () => {
               </form>
               <p className="text-gray-600 mt-4 text-xs">
                 This site is protected by reCAPTCHA and the Google{" "}
-                <a href="#" className="text-blue-800">
+                <p className="text-blue-800">
                   Privacy Policy
-                </a>{" "}
+                </p>{" "}
                 and{" "}
-                <a href="#" className="text-blue-800">
+                <p  className="text-blue-800">
                   Terms of Service
-                </a>{" "}
+                </p>{" "}
                 apply.
               </p>
             </div>

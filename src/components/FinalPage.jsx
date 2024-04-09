@@ -44,16 +44,16 @@ const FinalPage = () => {
             <p className="mt-2">
               Didn't receive the email? Check your Spam folder, it may have been
               caught by a filter. If you still don't see it, you can{" "}
-              <a href="#" className="text-pink-500 hover:underline">
+              <p  className="text-pink-500 hover:underline">
                 resend the confirmation email
-              </a>
+              </p>
               .
             </p>
             <p className="mt-2">
               Wrong email address?{" "}
-              <a href="#" className="text-pink-500 hover:underline">
+              <p href="/blank" className="text-pink-500 hover:underline">
                 Change it
-              </a>
+              </p>
               .
             </p>
           </div>

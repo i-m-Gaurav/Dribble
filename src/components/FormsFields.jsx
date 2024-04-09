@@ -71,13 +71,13 @@ const FormFields = () => {
           <input type="checkbox" className="mr-2" required />
           <span className="text-gray-600 text-xs sm:text-base">
             Creating an account means you're okay with our{" "}
-            <a href="#" className="text-blue-800">
+            <p  className="text-blue-800">
               Terms of Service, Privacy Policy,
-            </a>{" "}
+            </p>{" "}
             and our default{" "}
-            <a href="#" className="text-blue-800">
+            <p className="text-blue-800">
               Notification Settings.
-            </a>
+            </p>
           </span>
         </label>
       </div>
